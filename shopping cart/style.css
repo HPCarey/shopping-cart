@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #0074cc;
 }
 
 h1 {
     text-align: center;
+    
 }
 
 .tickets {
