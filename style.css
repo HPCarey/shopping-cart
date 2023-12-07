@@ -24,11 +24,12 @@ h1 {
 }
 
 button.add-to-cart {
-    background-color: #0074cc;
+    background-color: green;
     color: white;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .cart {
@@ -36,6 +37,9 @@ button.add-to-cart {
     padding: 10px;
     margin-top: 20px;
     text-align: center;
+}
+.ticket, .cart{
+    border-radius: 15px;
 }
 
 .cart ul {
@@ -51,4 +55,7 @@ button.add-to-cart {
 
 .cart p {
     font-weight: bold;
+}
+input {
+    border-radius: 5px;
 }
